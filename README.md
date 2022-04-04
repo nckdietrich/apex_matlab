@@ -1,2 +1,17 @@
 # apex_matlab
 Matlab wrapping code for apex implemented in Fortran
+
+
+To compile apex:
+    ifort -o apex apex.f90 test.f
+
+
+To compile apex calling fortran code:
+ - Compile all files individually to make .o outputs
+    ifort -c apex.f90 matlab_apex_mall.f90
+ - Compile the executable
+    ifort apex.o matlab_apex_mall.o -o a.out
+ - Run executable
+    ./a.out
+
+Make sure executable functions are in the top level folder
