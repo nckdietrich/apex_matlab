@@ -5,19 +5,18 @@ Matlab wrapping code for apex implemented in Fortran. Check matlab functions for
 To compile apex:
     ifort -o apex apex.f90 test.f
 
-
+(Note for myself)
 To compile apex calling fortran code:
  - Compile all files individually to make .o outputs
     ifort -c apex.f90 matlab_apex_mall.f90
  - Compile the executable
-    ifort apex.o matlab_apex_mall.o -o a.out
+    ifort apex.o matlab_apex_mall.o -o matlab_apex_mall
  - Run executable
-    ./a.out
+    ./matlab_apex_mall
 
 Make sure executable functions are in the top level folder
 
-
-Apex commands:
- - apex_mall: Convert from geodetic coordinates to apex/quasi-dipole coordinates
+Available Apex commands:
+ - apex_mall: Convert from geodetic coordinates to apex/quasi-dipole coordinates + magnetic fields + basis vectors
  - apex_q2g: Convert from quasi-dipole to geodetic coordinates
  - apex_m2g: Convert from modified apex coordinates to geodetic coordinates
