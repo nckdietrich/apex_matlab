@@ -15,3 +15,12 @@ To compile apex calling fortran code:
     ./a.out
 
 Make sure executable functions are in the top level folder
+
+
+Apex commands:
+    - apex_mall
+        o Convert from geodetic coordinates to apex/quasi-dipole coordinates
+    - apex_q2g
+        o Convert from quasi-dipole to geodetic coordinates
+    - apex_m2g
+        o Convert from modified apex coordinates to geodetic coordinates
