@@ -1,5 +1,5 @@
 # apex_matlab
-Matlab wrapping code for apex implemented in Fortran
+Matlab wrapping code for apex implemented in Fortran. Check matlab functions for inputs and outputs. 
 
 
 To compile apex:
