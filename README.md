@@ -18,9 +18,6 @@ Make sure executable functions are in the top level folder
 
 
 Apex commands:
-    - apex_mall
-        o Convert from geodetic coordinates to apex/quasi-dipole coordinates
-    - apex_q2g
-        o Convert from quasi-dipole to geodetic coordinates
-    - apex_m2g
-        o Convert from modified apex coordinates to geodetic coordinates
+ - apex_mall: Convert from geodetic coordinates to apex/quasi-dipole coordinates
+ - apex_q2g: Convert from quasi-dipole to geodetic coordinates
+ - apex_m2g: Convert from modified apex coordinates to geodetic coordinates
